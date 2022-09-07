@@ -3,7 +3,12 @@
     web, lombok, Thymeleaf, Spring Boot DevTools   추가해서 설치
 -- git
 -- 게시판 만들기
+<<<<<<< HEAD
 https://tjdans.tistory.com/7?category=992472
+=======
+1. https://velog.io/@jinjubae/%EA%B2%8C%EC%8B%9C%ED%8C%90-%EB%A7%8C%EB%93%A4%EA%B8%B0-IntelliJ%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EA%B2%8C%EC%8B%9C%ED%8C%90-%EB%A7%8C%EB%93%A4%EA%B8%B0-1%ED%83%84
+2. https://tjdans.tistory.com/7?category=992472
+>>>>>>> 4ee2a78 (게시판 생성중)
 -- 에러
 Process 'command 'C:/Program Files/Java/jdk-11.0.16.1/bin/java.exe'' finished with non-zero exit value 1
   File -> Setting -> Gradle 로 들어가 ​Gradle (default)를 intelliJ IDEA로 바꿔준다.
@@ -34,4 +39,19 @@ Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class 
     spring.datasource.driver-class-name=com.mysql.jdbc.Driver
     위와 같이 spring.datasource.driver-class-name 부분이
     com.mysql.jdbc.Driver 로 잡혀있는 것이 보일텐데
+<<<<<<< HEAD
     이걸 com.mysql.cj.jdbc.Driver로 바꿔주면 된다
+=======
+    이걸 com.mysql.cj.jdbc.Driver로 바꿔주면 된다
+
+Invalid mapping pattern detected: /board/**/hello
+    https://haenny.tistory.com/297
+    스프링부트 2.6 으로 업그레이드 시 요청 경로를 ControllerHandler에 매칭시키기 위한 전략의 기본 값
+     즉, spring.mvc.pathmatch.matching-strategy 기본 값이 ant_path_matcher 에서 path_pattern_parser 로 변경된다.
+     application.properties ant_path_matcher 값 설정
+     spring.mvc.pathmatch.matching-strategy=ant_path_matcher
+
+라우팅 문서화
+    https://walkerlab.tistory.com/8?category=840779
+    http://localhost:8080/swagger-ui.html  -- api 문서화
+>>>>>>> 4ee2a78 (게시판 생성중)
