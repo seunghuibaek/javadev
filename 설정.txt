@@ -49,4 +49,4 @@ Invalid mapping pattern detected: /board/**/hello
     http://localhost:8080/swagger-ui.html  -- api 문서화
 
 템플릿(header, footer 등등)
-    https://wildeveloperetrain.tistory.com/136
+    https://wildeveloperetrain.tistory.com/136 -- 먼지 모르겠음
